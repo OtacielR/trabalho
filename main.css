@@ -12,10 +12,12 @@
     align-items: center;
     justify-content: space-around;
     padding: 15px;
+    height: 40%;
 }
-.logo{
-    height: 70px;
-    width: 25px;
+#logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 .menu
 {
