@@ -1,12 +1,10 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.cabeçalho
-{
+.cabeçalho{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,8 +17,7 @@
     width: 100px;
     border-radius: 50%;
 }
-.menu
-{
+.menu{
     display: flex;
     padding-top: 30px;
     width: 20%;
@@ -33,30 +30,36 @@
     font-weight: bold;
     margin-right: 15px;
 }
-.container
-{
+.container{
     height: 100%;
     overflow-y: hidden;
 }
-header
-{
+header{
     grid-area: header;
     background-color: rgb(122, 212, 80);
 }
-main
-{
+main{
     grid-area: main;
     background-color: grey;
 }
-#divBusca
-{
+.boxObjetos{
+    display: grid;
+    grid-template-areas: 
+    'div div div'
+    'div div div';
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.Objetos{
+    height: 170px;
+}
+#divBusca{
     background-color:#ffffff;
     border:solid 1px;
     border-radius:15px;
     width:300px;
 }
-#txtBusca
-{
+#txtBusca{
     float:left;
     background-color:transparent;
     padding-left:5px;
@@ -65,5 +68,10 @@ main
     border:none;
     height:32px;
     width:260px;
+}
+#Img-Objetos{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
 }
 
