@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabeçalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.logo{
+    height: 70px;
+    width: 25px;
+}
+.menu
+{
+    display: flex;
+    padding-top: 30px;
+    width: 20%;
+    text-align: right;
+    gap: 30px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.container
+{
+    height: 100%;
+    overflow-y: hidden;
+}
+header
+{
+    grid-area: header;
+    background-color: rgb(122, 212, 80);
+}
+main
+{
+    grid-area: main;
+    background-color: grey;
+}
+#divBusca
+{
+    background-color:#ffffff;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+}
+#txtBusca
+{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
+
