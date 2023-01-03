@@ -4,35 +4,34 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.cabeçalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px;
-    height: 40%;
-}
 #logo{
     height: 100px;
     width: 100px;
     border-radius: 50%;
 }
-.menu{
+.navigation{
     display: flex;
-    padding-top: 30px;
-    width: 20%;
-    text-align: right;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 40px;
+    box-shadow: 0 0.1rem 0.5rem #ccc;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
     gap: 30px;
 }
-.menu a{
+.navigation ul li a{
     color: black;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 15px;
+    transition: all 0.5s;
 }
-.container{
-    height: 100%;
-    overflow-y: hidden;
+.navigation ul li a:hover{
+    color: red;
 }
 header{
     grid-area: header;
