@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
 }
 #logo{
     height: 100px;
@@ -33,9 +34,15 @@
 .navigation ul li a:hover{
     color: red;
 }
+.menu{
+    text-align: center;
+    height: 50px;
+    align-items: center;
+
+}
 header{
     grid-area: header;
-    background-color: rgb(122, 212, 80);
+    background-color: #7ed957;
 }
 main{
     grid-area: main;
