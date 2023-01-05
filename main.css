@@ -35,12 +35,11 @@
     color: red;
 }
 .menu{
-    text-align: center;
-    
-    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-top: 15px;
     margin-bottom: 15px;
-
+    gap: 5px;
 }
 header{
     grid-area: header;
