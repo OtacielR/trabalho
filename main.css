@@ -36,8 +36,10 @@
 }
 .menu{
     text-align: center;
-    height: 50px;
+    
     align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 header{
@@ -58,6 +60,10 @@ main{
 }
 .Objetos{
     height: 170px;
+    margin-top: 30px;
+}
+.Objetos ul li{
+    margin-left: 20px;
 }
 #divBusca{
     background-color:#ffffff;
