@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container
 {
     background-color: gray;
@@ -11,7 +15,7 @@
     'main main main'
     'footer footer footer';
 
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 60 20%;
     grid-template-rows: 20% 135% 20%;
 }
 header
