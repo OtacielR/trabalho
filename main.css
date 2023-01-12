@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .container
 {
@@ -11,11 +10,11 @@
 
     display: grid;
     grid-template-areas: 
-    'header header'
-    'main main'
-    'footer footer';
+    'header'
+    'main'
+    'footer';
 
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 100%;
     grid-template-rows: 20% 135% 20%;
 }
 header
