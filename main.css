@@ -387,6 +387,6 @@ span
 
 .slide li {padding : 30px;}
 
-#touch {position: absolute; opacity: 0; height: 0px; border-radius: 20px;}    
+#touch {position: absolute; opacity: 0; height: 0px;}    
 
-#touch:checked + .slide {height: 155px;} 
+#touch:checked + .slide {height: 155px; border-radius: 20px;} 
