@@ -10,12 +10,7 @@
         margin: 0;
     }
     body{
-        width: 100vw;
-        height: 100vh;
-        background-color: #2f3640;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background-color: #2f3640;    
     }
     .center-login{
         width: 100vw;
@@ -25,17 +20,26 @@
         align-items: center;
     }
     .card-login{
-        width: 70%;
+        width: 60%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         padding: 30px 35px;
         background-color: #293241;
         border-radius: 20px;
         box-shadow: 0px 10px 40px #00000056;
     }
-    .card-login > h1{
+    .card-left{
+        width: 50vw;
+    }
+    .card-right{
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .card-right > h1{
         color: #7ed957;
         font-weight: 800;
         margin: 0;
@@ -72,26 +76,33 @@
 <body>
     <div class="center-login">
         <div class="card-login">
-            <h1>Perfil</h1>
-            <div class="textfield">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Nome">
+            <div class="card-left">
+                
+                <h1>Joás Jordson</h1>
             </div>
-            <div class="textfield">
-                <label for="matricula">Matrícula no IFRN</label>
-                <input type="number" name="matricula" placeholder="Matrícula">
-            </div>
-            <div class="textfield">
-                <label for="telefone">Telefone</label>
-                <input type="number" name="telefone" placeholder="Telefone">
-            </div>
-            <div class="textfield">
-                <label for="email">E-mail</label>
-                <input type="email" name="email" placeholder="E-mail">
-            </div>
-            <div class="textfield">
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" placeholder="Senha">
+            <div class="card-right">
+                <h1>Perfil: </h1>
+                <div class="textfield">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Nome">
+                </div>
+                <div class="textfield">
+                    <label for="matricula">Matrícula no IFRN</label>
+                    <input type="text" name="matricula" placeholder="Matrícula">
+                </div>
+                <div class="textfield">
+                    <label for="telefone">Telefone</label>
+                    <input type="text" name="telefone" placeholder="Telefone">
+                </div>
+                <div class="textfield">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <a href="tela_inicial.html"><button class="btn-login">Atualizar</button></a>
             </div>
         </div>
     </div>   
