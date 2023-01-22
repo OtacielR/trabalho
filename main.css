@@ -37,7 +37,6 @@ header
     grid-area: header;
     background-color: #7ed957;
 }
-
 main
 {
     grid-area: main;
@@ -52,12 +51,20 @@ footer
 
 /*Fim do tamplate*/
 
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.1rem 0.5rem #ccc;
+  width: 100%;
+  transition: all 0.5s;
+}
+
 .searchBox {
-  position: absolute;
-  top: 1%;
-  left: 76%;
   transform:  translate(-50%,50%);
   background: #2f3640;
+  margin-bottom: 35px;
+  margin-left: 30px;
   
   /*Tamanho da barra de busca*/
   height: 41px;
@@ -109,10 +116,6 @@ footer
   margin-top: -60px;
   margin-right: 50px;
   text-align: right;
-}
-.imagm{
-  /* Logo if*/
-  margin-top: -95px;
 }
 
 /*Começo da categoria*/
@@ -252,22 +255,10 @@ a.button:active {
 }
 
 /* Perfil */
-figure{
-  width: 50px;
-  height: 50px;
-  position: relative;
-}
 .main-profile-img {
-  position: absolute;
-  right: -1190px;/* posicao do pefil */
-  width: 120%;
-  height: 120%;
-  top: -108px;
-  object-fit: cover;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: #7ed957;
-  box-shadow: 0 0 8px 3px #7ed957;
+  margin-right: 40px;
+  margin-top: 30px;
+
 }
 .links{
     color: black;
