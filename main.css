@@ -345,6 +345,11 @@ span
 }
 
 <<<<<<< HEAD
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 155px; border-radius: 20px;} 
+=======
+<<<<<<< HEAD
 #touch{
   position: absolute; opacity: 0; height: 0px;
 }    
@@ -355,3 +360,4 @@ span
 #touch:checked + .slide{
   height: 155px;
 } 
+>>>>>>> 526bceee5e79c90d2e980cbad71116b12bda0c32
