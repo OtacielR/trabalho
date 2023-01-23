@@ -37,6 +37,7 @@ header
     grid-area: header;
     background-color: #7ed957;
 }
+
 main
 {
     grid-area: main;
@@ -51,20 +52,12 @@ footer
 
 /*Fim do tamplate*/
 
-.navigation{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 0.1rem 0.5rem #ccc;
-  width: 100%;
-  transition: all 0.5s;
-}
-
 .searchBox {
+  position: absolute;
+  top: 1%;
+  left: 76%;
   transform:  translate(-50%,50%);
   background: #2f3640;
-  margin-bottom: 35px;
-  margin-left: 30px;
   
   /*Tamanho da barra de busca*/
   height: 41px;
@@ -117,6 +110,10 @@ footer
   margin-right: 50px;
   text-align: right;
 }
+.imagm{
+  /* Logo if*/
+  margin-top: -95px;
+}
 
 /*Começo da categoria*/
 :root {
@@ -162,7 +159,7 @@ a.button:active {
   border: none;
   text-align: center;
   /* Posicao da barra categoria */
-  margin-top: 28px;
+  margin-top: 35px;
 }
 
 .dropdown summary {
@@ -192,7 +189,7 @@ a.button:active {
   padding: 5px 0;
   width: var(--dropdown-width);
   /* posicao do barra */
-  right: 570px;
+  right: 860px;
   margin-left: calc((var(--dropdown-width) / 2)  * -1);
   box-sizing: border-box;
   z-index: 2;
@@ -255,23 +252,22 @@ a.button:active {
 }
 
 /* Perfil */
+figure{
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
 .main-profile-img {
-<<<<<<< HEAD
   position: absolute;
   right: -1190px;/* posicao do pefil */
   width: 120%;
   height: 120%;
-  top: -85px;
+  top: -88px;
   object-fit: cover;
   border-radius: 50%;
   border-style: solid;
   border-color: #7ed957;
   box-shadow: 0 0 8px 3px #7ed957;
-=======
-  margin-right: 40px;
-  margin-top: 30px;
-
->>>>>>> 04f3e14c3c43be294d17dea0e7046c83c9c49847
 }
 .links{
     color: black;
@@ -310,69 +306,63 @@ div.desc {
   text-align: center;
 }
 
+/* A baixo barra da categoria */
+
 li a{
-  text-decoration : none; color : #2d2f31;
+    text-decoration : none; color : #2d2f31;
 }
-
+  
 span {
-  padding : 20px;
-  background : #222229; 
-  color : white;
-  font-size : 1.2em;
-  font-variant : small-caps;
-  cursor : pointer;
-  display: block;
-  /* Borda branca */
-  border-radius: 20px;
+    padding : 20px;
+    background : #222229; 
+    color : white;
+    font-size : 1.2em;
+    font-variant : small-caps;
+    cursor : pointer;
+    display: block;
+    /* Borda branca */
+    border-radius: 20px;
 }
-
+  
 span::after {
-  float: right;
-  right: 10%;
-  content: "▼";
+    float: right;
+    right: 10%;
+    content: "▼";
 }
 li :hover
 {
-  color: #7ed957;
+    color: #7ed957;
+    
+}
   
-}
-
 a{
-  font-weight: 700;
+    font-weight: 700;
 }
-
+  
 span
 {
-  color: #7ed957;
+    color: #7ed957;
 }
-
+  
 .slide {
-  clear:both;
-  width:100%;
-  height:0px;
-  overflow: hidden;
-  text-align: center;
-  transition: height .4s ease;
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
 }
-
+  
 .slide li{
-  padding : 30px;
+    padding : 30px;
+}
+  
+#touch{
+    position: absolute; opacity: 0; height: 0px;
+}    
+  
+#touch:checked + .slide{
+    height: 155px;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-#touch {position: absolute; opacity: 0; height: 0px;}    
-
-#touch:checked + .slide {height: 155px; border-radius: 20px;} 
-=======
-<<<<<<< HEAD
->>>>>>> 04f3e14c3c43be294d17dea0e7046c83c9c49847
-#touch{
-  position: absolute; opacity: 0; height: 0px;
-}    
-
-#touch:checked + .slide{
-  height: 155px;
-} 
->>>>>>> 526bceee5e79c90d2e980cbad71116b12bda0c32
+/* Testando para ver  */
