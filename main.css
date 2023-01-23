@@ -262,7 +262,7 @@ figure{
   right: -1190px;/* posicao do pefil */
   width: 120%;
   height: 120%;
-  top: -108px;
+  top: -85px;
   object-fit: cover;
   border-radius: 50%;
   border-style: solid;
@@ -318,6 +318,8 @@ span {
   font-variant : small-caps;
   cursor : pointer;
   display: block;
+  /* Borda branca */
+  border-radius: 20px;
 }
 
 span::after {
@@ -353,13 +355,9 @@ span
   padding : 30px;
 }
 
-<<<<<<< HEAD
 #touch{
   position: absolute; opacity: 0; height: 0px;
 }    
-=======
-#touch {position: absolute; opacity: 0; height: 0px; border-radius: 20px;}    
->>>>>>> 10782d34bf2ab8448484b2ab6cc2e499df0ece58
 
 #touch:checked + .slide{
   height: 155px;
