@@ -20,7 +20,7 @@
         align-items: center;
     }
     .card-login{
-        width: 60%;
+        width: 55%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -32,14 +32,20 @@
     .card-left{
         width: 50vw;
     }
+    .card-perfil{
+        margin-left: 40px;
+        
+    }
     .card-right{
         width: 50vw;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        border-left: 0.5px solid #FFF2E7;
+        padding: 25px;
 
     }
-    .card-right > h1{
+    h1{
         color: #7ed957;
         font-weight: 800;
         margin: 0;
@@ -71,14 +77,36 @@
     .textfield > input::placeholder{
         color: #f0ffff94;
     }
+    #perfil{
+        width: 150px;
+        height: 150px;
+        border: 2px solid #7ed957;
+        border-radius: 50%;
+        box-shadow: 0px 10px 40px #00000056;
+    }
+    .btn-login{
+        width: 30%;
+        padding: 16px 0px;
+        margin: 0px;
+        border: none;
+        border-radius: 8px;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: #4b8035;
+        cursor: pointer;
+    }
     </style>
 </head>
 <body>
     <div class="center-login">
         <div class="card-login">
             <div class="card-left">
-                
-                <h1>Joás Jordson</h1>
+                <div class="card-perfil">
+                    <img id="perfil" src="Imagens/Perfil.jpg">
+                    <h1>Joás Jordson</h1>
+                </div>
             </div>
             <div class="card-right">
                 <h1>Perfil: </h1>
