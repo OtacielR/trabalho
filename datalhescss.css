@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+background-color: gray;
+width: 100vw;
+height: 100vh;
+
+display: grid;
+grid-template-areas: 
+'header header'
+' main aside'
+' footer footer';
+
+grid-template-columns: 60% 40% 50%;
+grid-template-rows: 20% 60% 20%;
+
+}
+header
+{
+    grid-area: header;
+    background-color: #7ed957;
+}
+main
+{
+    grid-area: main;
+    background-color: cornsilk;
+}
+aside
+{
+    grid-area: aside;
+    background-color: darkolivegreen;
+}
+footer
+{
+    grid-area: footer;
+    background-color: coral;
+}
+
+/* Fim */
+
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: #7ed957;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 2px;
+ 
+}
+.menu ul li a {
+    /* Menu de cima */
+    display: block;
+    color: black;
+    padding: 5px 2px;
+      /* Espaço dos elementos menu */
+    margin-right: 110px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: white;
+}
+
+.title
+{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+/* Fim */
+.menu2 {
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+.menu2 ul li {
+    display: inline-block;
+
+ 
+}
+.menu2 ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: inset;
+    border-radius: 50%;
+    
+}
+
+.otherpages {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 15px;
+  }
+
+  .otherpages P {
+    display: inline-block;
+    padding: 15px;
+    
+  }
+
+  .otherpages p:hover {
+    color: white;
+}
