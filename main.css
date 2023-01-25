@@ -284,10 +284,14 @@ figure{
 .rodafeet :hover{
   color: yellow;
 }
-
-.main{
-  align-items: center;
- }
+.caixa{
+  display: grid;
+  grid-template-areas: 
+  'div div div div'
+  'div div div div';
+  justify-content: space-evenly;
+  padding: 2px;
+}
 div.gallery {
   margin: 55px;
   border: 10px solid #ccc;
