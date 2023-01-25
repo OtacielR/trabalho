@@ -124,3 +124,51 @@ footer
   .otherpages p:hover {
     color: white;
 }
+
+/* Ao lado direita */
+
+.otherpages2 {
+    border: 5px solid #2f3640;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: -45px;
+    text-align: left;
+    display: block;
+    color: black;
+    border-radius: 4px;
+  }
+
+  .otherpages2 P {
+    display: inline-block;
+    padding: 15px;
+    background-color: darkolivegreen;
+    border-radius: 4px;
+    
+  } 
+
+  .otherpages2 p:hover {
+    color: #7ed957;
+    
+}
+
+/* Ao lado direita */
+.otherpages3 {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .otherpages3 P {
+    display: inline-block;
+    padding: 15px;
+    
+  }
+
+  /* tetsando123 */
