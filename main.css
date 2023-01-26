@@ -16,8 +16,8 @@
     'main'
     'footer';
 
-    grid-template-columns: 105%;
-    grid-template-rows: 20% 100% 20%;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 120% 20%;
 }
 .nav
 {
@@ -280,7 +280,6 @@ figure{
   text-align: left;
   margin-left: 40px;
   margin-top: 50px;
-  color: coral;
   font-weight: 700;
   
 }
@@ -373,3 +372,41 @@ a{
   
 #touch:checked + .slide{
     height: 155px;
+}
+.final{
+  display: flex;
+  justify-content: space-between;
+}
+.final-right{
+  margin-right: 15px;
+  margin-top: 50px;
+  display: flex;
+}
+
+
+@media screen and (max-width: 600px){
+  .dropdown{
+    display: none;
+  }
+  .searchBox{
+    display: none;
+  }
+  .container{
+    grid-template-rows: 20% 170% 25%;
+  }
+  .caixa{
+    display: grid;
+    grid-template-areas: 
+    'div div'
+    'div div'
+    'div div';
+    justify-content: space-evenly;
+    padding: 1px;
+  }
+  .navigation{
+    gap: 170px;
+  }
+  div.gallery{
+    width: 150px;
+  }
+}
