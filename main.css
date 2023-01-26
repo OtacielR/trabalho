@@ -41,7 +41,7 @@ header
 main
 {
     grid-area: main;
-    background-color: gray;
+    background-color:#293241
 }
 
 footer
@@ -58,9 +58,6 @@ footer
   padding: 15px;
   align-items: center;
   gap: 100px;
-  
-
-
 }
 
 .searchBox {
@@ -310,6 +307,7 @@ div.gallery img {
 div.desc {
   padding: 5px;
   text-align: center;
+  color: #ccc;
 }
 
 /* A baixo barra da categoria */
