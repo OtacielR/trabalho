@@ -139,6 +139,7 @@ a.button {
   border-radius: 60px;
   box-sizing: border-box;
   top: 1px;
+  
 
   /* Style */
   border: none;
@@ -166,6 +167,7 @@ a.button:active {
 .dropdown summary {
   list-style: none;
   list-style-type: none;
+  outline: none;
 }
 
 .dropdown > summary::-webkit-details-marker {
@@ -190,7 +192,7 @@ a.button:active {
   padding: 5px 0;
   width: var(--dropdown-width);
   /* posicao do barra */
-  right: 860px;
+  right: 720px;
   margin-left: calc((var(--dropdown-width) / 2)  * -1);
   box-sizing: border-box;
   z-index: 2;
@@ -228,7 +230,7 @@ a.button:active {
   height: 0;
   top: -10px;
   /* Posiçao do triangulo */
-  right: 788%;
+  right: 790%;
   margin-right: -900px;
   border-style: solid;
   border-width: 0 10px 10px 10px;
@@ -324,6 +326,8 @@ span {
     font-variant : small-caps;
     cursor : pointer;
     display: block;
+    color:#7ed957;
+    font-weight: 700;
     /* Borda branca */
     border-radius: 20px;
 }
@@ -342,12 +346,7 @@ li :hover
 a{
     font-weight: 700;
 }
-  
-span
-{
-    color: #7ed957;
-}
-  
+
 .slide {
     clear:both;
     width:100%;
@@ -355,6 +354,9 @@ span
     overflow: hidden;
     text-align: center;
     transition: height .4s ease;
+    background-color: #ccc;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
   
 .slide li{
@@ -367,6 +369,6 @@ span
   
 #touch:checked + .slide{
     height: 155px;
-}
+
 
 /* Testando para ver  */
