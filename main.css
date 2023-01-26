@@ -29,7 +29,7 @@ body
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  background-color: #222229;
+  background-color: #2f3640;
   font-family : "Open Sans", sans-serif;
 }
 header
@@ -41,7 +41,7 @@ header
 main
 {
     grid-area: main;
-    background-color:#293241
+    background-color:#2f3640;
 }
 
 footer
@@ -57,7 +57,7 @@ footer
   display: flex;
   padding: 15px;
   align-items: center;
-  gap: 100px;
+  gap: 120px;
 }
 
 .searchBox {
@@ -125,7 +125,7 @@ footer
   --button-background: #2f3640;
   --button-color: #7ed957;
   
-  --dropdown-highlight: dodgerblue;
+  --dropdown-highlight: rgb(221, 255, 30);
   --dropdown-width: 120px;
   --dropdown-background: #2f3640;;
   --dropdown-color: #7ed957;
@@ -192,7 +192,7 @@ a.button:active {
   padding: 5px 0;
   width: var(--dropdown-width);
   /* posicao do barra */
-  right: 720px;
+  right: 880px;
   margin-left: calc((var(--dropdown-width) / 2)  * -1);
   box-sizing: border-box;
   z-index: 2;
@@ -201,6 +201,7 @@ a.button:active {
   border-radius: 6px;
   list-style: none;
 }
+
 
 .dropdown ul li {
   padding: 0;
