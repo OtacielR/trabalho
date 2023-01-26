@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -14,8 +16,8 @@
     'main'
     'footer';
 
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 135% 20%;
+    grid-template-columns: 105%;
+    grid-template-rows: 20% 100% 20%;
 }
 .nav
 {
@@ -30,7 +32,7 @@ body
   align-items: center;
   min-height: 80vh;
   background-color: #2f3640;
-  font-family : "Open Sans", sans-serif;
+  font-family : 'Noto Sans', sans-serif;
 }
 header
 {
@@ -288,8 +290,8 @@ figure{
 .caixa{
   display: grid;
   grid-template-areas: 
-  'div div div div'
-  'div div div div';
+  'div div div'
+  'div div div';
   justify-content: space-evenly;
   padding: 2px;
 }
@@ -371,6 +373,3 @@ a{
   
 #touch:checked + .slide{
     height: 155px;
-
-
-/* Testando para ver  */
