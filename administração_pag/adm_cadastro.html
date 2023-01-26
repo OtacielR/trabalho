@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+
+<style type="text/css">
+*{
+margin: 0;
+padding: 0;
+ }
+body
+{
+    background-color: #2f3640;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card-principal
+{
+    background-color:#293241;
+    padding: 20px;
+    margin: 20px;
+    width: 95%;
+    height: 80vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 10px 40px #00000056;
+    color: white;
+}
+.titulo
+{
+    background-color: #7ed957;
+    padding: 20px;
+    text-align: center;
+}
+.voltar
+{
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #7ed957;
+    
+}
+a
+{
+     color: inherit;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #e5ebf5;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow:#00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #4b8035;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #3c5a2f;;
+}
+    </style>
+
+</head>
+<body>
+        <div class="titulo">
+            <h2>Administração</h2>
+        </div>
+        <div class="voltar"><a href="">Voltar</a></div>
+
+        <div class="card-principal">
+
+            <div class="textfield">
+                <label for="item">Nome do item.</label>
+                <input type="text" name="item" placeholder="Nome do item">
+            </div>
+            <div class="textfield">
+                <label for="data">Data de quando perdeu.</label>
+                <input type="date" name="data">
+            </div>
+            <div class="textfield">
+                <label for="descricao">Deixe uma breve descrição do item perdido.</label><br>
+                <input type="text" name="descricao" placeholder="Descrição do item">
+            </div>
+            <div class="textfield">
+                <label for="foto">Deixe uma foto do item.</label>
+                <input type="file">
+            </div>
+            <a href="tela_inicial.html"><button class="btn-login">Cadastrar</button></a>
+            
+</body>
+</html>
