@@ -115,13 +115,14 @@ footer
     border-radius: 15px;
   }
 
-  .otherpages P {
+  .otherpages a {
     display: inline-block;
     padding: 15px;
+    color: #7ed957;
     
   }
 
-  .otherpages p:hover {
+  .otherpages a:hover {
     color: white;
 }
 
@@ -138,16 +139,17 @@ footer
     border-radius: 4px;
   }
 
-  .otherpages2 P {
+  .otherpages2 a {
     display: inline-block;
     padding: 15px;
     background-color: darkolivegreen;
     border-radius: 4px;
+    color: black;
     
   } 
 
-  .otherpages2 p:hover {
-    color: #7ed957;
+  .otherpages2 a:hover {
+    color: white;
     
 }
 
@@ -168,7 +170,7 @@ footer
   .otherpages3 P {
     display: inline-block;
     padding: 15px;
-    
+    font-size: large;
   }
 
   /* descriçao */
@@ -218,6 +220,5 @@ footer
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
-    
-
 }
+
