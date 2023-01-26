@@ -275,7 +275,8 @@ figure{
     color: black;
 }
 .rodafeet{ 
-  margin-right: 100px;
+  text-align: left;
+  margin-left: 40px;
   margin-top: 50px;
   color: coral;
   font-weight: 700;

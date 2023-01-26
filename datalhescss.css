@@ -17,7 +17,7 @@ grid-template-areas:
 ' footer footer';
 
 grid-template-columns: 60% 40% 50%;
-grid-template-rows: 20% 60% 20%;
+grid-template-rows: 20% 70% 20%;
 
 }
 header
@@ -28,12 +28,12 @@ header
 main
 {
     grid-area: main;
-    background-color: cornsilk;
+    background-color: #2f3640;
 }
 aside
 {
     grid-area: aside;
-    background-color: darkolivegreen;
+    background-color:#7ed957;
 }
 footer
 {
@@ -154,7 +154,7 @@ footer
 /* Ao lado direita */
 .otherpages3 {
     border: 1px none #7ed957;
-    background-color:  #2f3640;;
+    background-color:  #2f3640;
     margin: 40px;
     margin-top: 10px;
     text-align: left;
@@ -171,4 +171,53 @@ footer
     
   }
 
-  /* tetsando123 */
+  /* descriçao */
+
+ .table {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 15px;
+    display: grid;
+    
+}
+
+.table p {
+    display: inline-block;
+    padding: 5px;
+}
+
+.table h1 {
+    display: inline-block;
+    padding: 5px;
+}
+
+.table h1 {
+    display: inline-block;
+    padding: 5px;
+}
+
+.table ul {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.objectfound
+{
+
+}
+
+.objectfound img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    
+
+}
