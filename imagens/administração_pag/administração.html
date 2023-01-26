@@ -14,16 +14,8 @@ padding: 0;
 body
 {
     background-color: #2f3640;
+    font-family: 'Noto Sans', sans-serif;
 }
-/*.container
-{
-    background-color: aqua;
-    padding: 20px;
-    height: 100%;
-    width: 100%; 
-    display: flex;
-    flex-direction: column;
-}*/
 .card-principal
 {
     background-color:#293241;
@@ -47,17 +39,22 @@ body
     border: 1px solid black;
     border-radius: 20px;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
 
 }
+
 div
 {
-    background-color: aquamarine;
+    background-color: #7ed957;
     padding: 20px;
     text-align: center;
 }
 .botao
 {
-    width: 85%%;
+    width: 50%;
     padding: 16px;
     margin: 15px;
     border: none;
@@ -67,7 +64,7 @@ div
     font-weight: 800;
     color: #4b8035;
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #3c5a2
+    box-shadow: 0px 10px 25px -12px #3c5a2f
 }
     </style>
 
@@ -79,19 +76,19 @@ div
             <div class="interno">
                 <h3>Perfil</h3><hr>
                 <p>Visualize e altere suas informações pessoais.</p>
-                <button class="botao">Ir ao destino</button></a>
+                <a href="tela_perfil.html"><button class="botao">Ir ao destino</button></a>
             </div>
 
             <div class="interno">
                 <h3>Itens perdidos</h3><hr>
                 <p>Veja a lista de itens que você perdeu.</p>
-                <button class="botao">Ir ao destino</button></a>
+                <a href="adm_itens.html"><button class="botao">Ir ao destino</button></a>
             </div>
 
             <div class="interno">
                 <h3>Cadastrar itens</h3><hr>
                 <p>Cadastrar itens perdidos recentemente no campus.</p>
-                <button class="botao">Ir ao destino</button></a>
+                <a href="tela_perfil.html"><button class="botao">Ir ao destino</button></a>
             </div>
         </div>
 </body>
