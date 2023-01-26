@@ -301,9 +301,8 @@ div.gallery {
   width: 175px;
   border-radius: 20px;
 }
-div.gallery:hover {
-  color: blue;
-}
+
+
 div.gallery img {
   width: 100%;
   height: auto;
@@ -313,6 +312,10 @@ div.desc {
   padding: 5px;
   text-align: center;
   color: #ccc;
+}
+
+.gallery :hover{
+  color: yellow;
 }
 
 /* A baixo barra da categoria */
