@@ -20,6 +20,21 @@
     grid-template-columns: 100%;
     grid-template-rows: 20% auto auto;
 }
+.container-inicio
+{
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'main'
+  'footer';
+
+  grid-template-columns: 100%;
+  grid-template-rows: 20% 90% auto;
+}
 .nav
 {
   width : 1300px; 
@@ -298,8 +313,6 @@ figure{
   padding: 2px;
 }
 .caixa-inicio{
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,8 +323,8 @@ figure{
 }
 .caixa-right{
   width: 50vw;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 180px;
+
 }
 .caixa-right > h1{
   text-align: right;
@@ -323,6 +336,7 @@ figure{
 }
 .left-login-img{
   width: 30vw;
+  margin-top: 30px;
 }
 div.gallery {
   margin: 55px;
