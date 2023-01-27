@@ -38,7 +38,7 @@ aside
 footer
 {
     grid-area: footer;
-    background-color: coral;
+    background-color: #7ed957;;
 }
 
 /* Fim */
@@ -209,11 +209,6 @@ footer
     margin-left: 20px;
 }
 
-.objectfound
-{
-
-}
-
 .objectfound img {
     margin-top: 20px;
     display: block;
@@ -222,3 +217,38 @@ footer
     border-radius: 15px;
 }
 
+.objectfound h1 
+{
+    text-align: left;
+    margin-left: 105px;
+    color: #7ed957;
+    margin-top: 5px;
+    margin-bottom: -15px;
+
+}
+
+.objectfound2
+{
+    text-align: left;
+    margin-left: 120px;
+    color: #7ed957;
+    margin-top: 5px;
+
+}
+
+  /* descriçao */
+
+  .rodafeet{ 
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  .rodafeet :hover 
+  {
+    color: white;
+  }
+  .links 
+  {
+    color: black;
+}
