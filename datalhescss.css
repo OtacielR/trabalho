@@ -209,17 +209,31 @@ footer
     margin-left: 20px;
 }
 
-.objectfound
-{
-
-}
-
 .objectfound img {
     margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
+}
+
+.objectfound h1 
+{
+    text-align: left;
+    margin-left: 105px;
+    color: #7ed957;
+    margin-top: 5px;
+    margin-bottom: -15px;
+
+}
+
+.objectfound2
+{
+    text-align: left;
+    margin-left: 120px;
+    color: #7ed957;
+    margin-top: 5px;
+
 }
 
   /* descriçao */
