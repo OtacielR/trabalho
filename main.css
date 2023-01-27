@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container
 {
     background-color: gray;
@@ -17,7 +18,7 @@
     'footer';
 
     grid-template-columns: 100%;
-    grid-template-rows: 20% 120% 20%;
+    grid-template-rows: 20% auto auto;
 }
 .nav
 {
@@ -34,6 +35,7 @@ body
   background-color: #2f3640;
   font-family : 'Noto Sans', sans-serif;
 }
+
 header
 {
     grid-area: header;
@@ -273,8 +275,9 @@ figure{
   border-color: #7ed957;
   box-shadow: 0 0 8px 3px #7ed957;
 }
-.links{
-    color: black;
+.links > a{
+    color:black;
+    font-weight: 700;
 }
 .rodafeet{ 
   text-align: left;
@@ -379,12 +382,20 @@ a{
 .final{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .final-right{
-  margin-right: 15px;
-  margin-top: 50px;
-  display: flex;
+  margin-right: 30px;
+  margin-top: 30px;
 }
+.final-right > ul li{
+  color: black;
+  font-weight: 700;
+  margin-left: 14px;
+  margin-top: 7px;
+
+}
+
 
 
 @media screen and (max-width: 600px){
@@ -395,7 +406,7 @@ a{
     display: none;
   }
   .container{
-    grid-template-rows: 20% 170% 25%;
+    grid-template-rows: 20% auto auto;
   }
   .caixa{
     display: grid;
@@ -411,5 +422,8 @@ a{
   }
   div.gallery{
     width: 150px;
+  }
+  body * {
+    box-sizing: border-box;
   }
 }

@@ -7,6 +7,8 @@
     <title>Administração</title>
 
 <style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 *{
 margin: 0;
 padding: 0;
@@ -35,6 +37,7 @@ body
     background-color: #7ed957;
     padding: 20px;
     text-align: center;
+    font-weight: 800;
 }
 .voltar
 {
@@ -62,11 +65,14 @@ a
     border-radius: 10px;
     padding: 15px;
     background-color: #e5ebf5;
-    color: #f0ffffde;
+    color: #293241;
     font-size: 12pt;
     box-shadow:#00000056;
     outline: none;
     box-sizing: border-box;
+}
+.textfield > input::placeholder{
+    color: #293241;
 }
 .btn-login{
     width: 100%;
@@ -89,8 +95,7 @@ a
         <div class="titulo">
             <h2>Administração</h2>
         </div>
-        <div class="voltar"><a href="administração.html">Voltar</a></div>
-
+        
         <div class="card-principal">
 
             <div class="textfield">
@@ -99,7 +104,7 @@ a
             </div>
             <div class="textfield">
                 <label for="data">Data de quando perdeu.</label>
-                <input type="date" name="data">
+                <input type="date" name="data" placeholder="dd/mm/aaa"> 
             </div>
             <div class="textfield">
                 <label for="descricao">Deixe uma breve descrição do item perdido.</label><br>
