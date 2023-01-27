@@ -297,6 +297,33 @@ figure{
   justify-content: space-evenly;
   padding: 2px;
 }
+.caixa-inicio{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa-left{
+  width: 40vw;
+  height: 100vh;
+}
+.caixa-right{
+  width: 50vw;
+  margin: 0;
+  padding: 0;
+}
+.caixa-right > h1{
+  text-align: right;
+  color: #7ed957;
+}
+.caixa-right > h2{
+  text-align: right;
+  color: #ccc;
+}
+.left-login-img{
+  width: 30vw;
+}
 div.gallery {
   margin: 55px;
   border: 10px solid #ccc;
@@ -385,7 +412,7 @@ a{
   margin-bottom: 20px;
 }
 .final-right{
-  margin-right: 30px;
+  margin-right: 45px;
   margin-top: 30px;
 }
 .final-right > ul li{
