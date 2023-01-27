@@ -101,6 +101,7 @@ footer
     margin-top: 15px;
     box-shadow: inset;
     border-radius: 50%;
+    font-family: 'Noto Sans', sans-serif;
     
 }
 
@@ -171,6 +172,7 @@ footer
     display: inline-block;
     padding: 15px;
     font-size: large;
+    font-family: 'Noto Sans', sans-serif;
   }
 
   /* descriçao */
@@ -191,11 +193,13 @@ footer
 .table p {
     display: inline-block;
     padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .table h1 {
     display: inline-block;
     padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .table h1 {
@@ -207,6 +211,7 @@ footer
     display: inline-block;
     padding: 10px;
     margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .objectfound img {
@@ -224,6 +229,7 @@ footer
     color: #7ed957;
     margin-top: 5px;
     margin-bottom: -15px;
+    
 
 }
 
@@ -233,8 +239,10 @@ footer
     margin-left: 120px;
     color: #7ed957;
     margin-top: 5px;
-
+    font-family: 'Noto Sans', sans-serif;
 }
+
+
 
   /* descriçao */
 
@@ -243,6 +251,7 @@ footer
     margin-left: 40px;
     margin-top: 50px;
     font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
   }
   .rodafeet :hover 
   {
