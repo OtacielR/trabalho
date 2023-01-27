@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+background-color: gray;
+width: 100vw;
+height: 100vh;
+
+display: grid;
+grid-template-areas: 
+'header header'
+' main aside'
+' footer footer';
+
+grid-template-columns: 60% 40% 50%;
+grid-template-rows: 20% 70% 20%;
+
+}
+header
+{
+    grid-area: header;
+    background-color: #7ed957;
+}
+main
+{
+    grid-area: main;
+    background-color: #2f3640;
+}
+aside
+{
+    grid-area: aside;
+    background-color:#7ed957;
+}
+footer
+{
+    grid-area: footer;
+    background-color: #7ed957;;
+}
+
+/* Fim */
+
+.header {
+    width: 100%;
+}
+.menu {
+    background-color: #7ed957;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 2px;
+ 
+}
+.menu ul li a {
+    /* Menu de cima */
+    display: block;
+    color: black;
+    padding: 5px 2px;
+      /* Espaço dos elementos menu */
+    margin-right: 110px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: white;
+}
+
+.title
+{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -30px;
+}
+/* Fim */
+.menu2 {
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+.menu2 ul li {
+    display: inline-block;
+
+ 
+}
+.menu2 ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 5px 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+    box-shadow: inset;
+    border-radius: 50%;
+    font-family: 'Noto Sans', sans-serif;
+    
+}
+
+.otherpages {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 15px;
+  }
+
+  .otherpages a {
+    display: inline-block;
+    padding: 15px;
+    color: #7ed957;
+    
+  }
+
+  .otherpages a:hover {
+    color: white;
+}
+
+/* Ao lado direita */
+
+.otherpages2 {
+    border: 5px solid #2f3640;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: -45px;
+    text-align: left;
+    display: block;
+    color: black;
+    border-radius: 4px;
+  }
+
+  .otherpages2 a {
+    display: inline-block;
+    padding: 15px;
+    background-color: darkolivegreen;
+    border-radius: 4px;
+    color: black;
+    
+  } 
+
+  .otherpages2 a:hover {
+    color: white;
+    
+}
+
+/* Ao lado direita */
+.otherpages3 {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .otherpages3 P {
+    display: inline-block;
+    padding: 15px;
+    font-size: large;
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  /* descriçao */
+
+ .table {
+    border: 1px none #7ed957;
+    background-color:  #2f3640;;
+    margin: 40px;
+    margin-top: 10px;
+    text-align: left;
+    display: block;
+    color: #7ed957;
+    border-radius: 15px;
+    display: grid;
+    
+}
+
+.table p {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.table h1 {
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.table h1 {
+    display: inline-block;
+    padding: 5px;
+}
+
+.table ul {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.objectfound img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.objectfound h1 
+{
+    text-align: left;
+    margin-left: 105px;
+    color: #7ed957;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    
+
+}
+
+.objectfound2
+{
+    text-align: left;
+    margin-left: 120px;
+    color: #7ed957;
+    margin-top: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+  /* descriçao */
+
+  .rodafeet{ 
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .rodafeet :hover 
+  {
+    color: white;
+  }
+  .links 
+  {
+    color: black;
+}
