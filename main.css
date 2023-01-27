@@ -324,6 +324,7 @@ figure{
 .caixa-right{
   width: 50vw;
   margin-bottom: 180px;
+  margin-right: 100px;
 
 }
 .caixa-right > h1{
@@ -335,7 +336,7 @@ figure{
   color: #ccc;
 }
 .left-login-img{
-  width: 30vw;
+  width: 40vw;
   margin-top: 30px;
 }
 div.gallery {
