@@ -38,7 +38,7 @@ aside
 footer
 {
     grid-area: footer;
-    background-color: coral;
+    background-color: #7ed957;;
 }
 
 /* Fim */
@@ -222,3 +222,19 @@ footer
     border-radius: 15px;
 }
 
+  /* descriçao */
+
+  .rodafeet{ 
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: 700;
+  }
+  .rodafeet :hover 
+  {
+    color: white;
+  }
+  .links 
+  {
+    color: black;
+}
