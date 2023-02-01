@@ -93,8 +93,9 @@ footer
 }
 
 .searchBox:hover > .searchInput {
-  width: 240px;
+  width: 200px;
   padding: 0 5px;
+  outline: none;
 }
 
 .searchBox:hover > .searchButton {
@@ -106,8 +107,8 @@ footer
 .searchButton {
   color: #7ed957;
   float: right;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: #2f3640;
   display: flex;
